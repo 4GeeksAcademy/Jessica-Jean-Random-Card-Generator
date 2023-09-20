@@ -1,0 +1,89 @@
+.card {
+  width: 200px;
+  height: 300px;
+  background-color: green;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  position: relative;
+  color: white;
+}
+
+.suit {
+  font-size: 36px;
+  position: absolute;
+}
+
+.top-suit {
+  top: 10px;
+  left: 10px;
+}
+
+.bottom-suit {
+  bottom: 10px;
+  right: 10px;
+}
+
+.spades::before {
+  content: "\2660";
+  font-size: 36px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.spades::after {
+  content: "\2660";
+  font-size: 36px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.clubs::before {
+  content: "\2663";
+  font-size: 36px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.clubs::after {
+  content: "\2663";
+  font-size: 36px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.hearts::before {
+  content: "\2665";
+  color: red;
+  font-size: 36px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.hearts::after {
+  content: "\2665";
+  color: red;
+  font-size: 36px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.diamonds::before {
+  content: "\2666";
+  font-size: 36px;
+  color: red;
+  font-size: 36px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.diamonds::after {
+  content: "\2666";
+  font-size: 36px;
+  color: red;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
